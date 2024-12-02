@@ -1,4 +1,8 @@
-/*section 1*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 h1 {
     color: #000;
@@ -8,9 +12,10 @@ h1 {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    text-align: center;
 }
 
-#starynight {
+#section-1 {
     display: flex;
     width: 568px;
     flex-direction: column;
@@ -18,13 +23,13 @@ h1 {
     gap: 32px;
 }
 
-#starynight img {
+#section-1 img {
     height: 446px;
     align-self: stretch;
     background: url(../Image/image\ 7.png) lightgray 50% / cover no-repeat;
 }
 
-#starynight h2 {
+#section-1 h2 {
     align-self: stretch;
     color: #000;
     text-align: center;
@@ -34,63 +39,10 @@ h1 {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    margin-top: 10 px;
 }
 
-#starynight p {
-    flex: 1 0 0;                                 
-    color: #414651;
-    text-align: center;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 120% */
-}
-
-#starynight ol li {
-    align-self: stretch;
-    color: #155EEF;
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-}
-
-#starynight footer {
-    display: flex;
-    padding: 12px 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: #CEA201;
-    font-family: Lato;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    border: 2px solid #CEA201;
-}
-
-/*section 2*/
-#Magic aside {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    align-self: stretch;
-}
-#Magic h2 {
-    color: #000;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-}
-
-#Magic p {
+#section-1 p {
     flex: 1 0 0;
     color: #414651;
     text-align: center;
@@ -101,16 +53,76 @@ h1 {
     line-height: 24px;
 }
 
-
-
-#here {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 24px;
+#section-1 ol {
+    align-self: stretch;
+    color: #155EEF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
-#here h3 {
+#section-1 footer {
+    display: flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #CEA201;
+}
+
+
+#section-1 footer p {
+    color: #CEA201;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+
+
+#section-2 {
+    display: flex;
+    width: 568px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+#section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+#section-2 h2 {
+    color: #000;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#section-2 p {
+    flex: 1 0 0;
+    color: #414651;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#section-2 h3 {
     flex: 1 0 0;
     color: #00C76E;
     text-align: center;
@@ -118,10 +130,10 @@ h1 {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 24px; 
 }
 
-#here ol li {
+#section-2 ol {
     color: #FF5DA3;
     font-family: Lato;
     font-size: 16px;
@@ -130,13 +142,13 @@ h1 {
     line-height: 24px;
 }
 
-#here img {
+#section-2 img {
     width: 200px;
     height: 200px;
     background: url(../Image/image\ 8.png) lightgray 50% / cover no-repeat;
 }
 
-#where {
+#section-2-1 {
     display: flex;
     padding: 16px;
     flex-direction: column;
@@ -147,17 +159,17 @@ h1 {
     background: #FFDEF0;
 }
 
-#where p {
+#section-2-1 h3 {
     flex: 1 0 0;
     color: #414651;
     font-family: Lato;
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
-    line-height: 24px;
+    line-height: 24px; /* 100% */
 }
 
-#where ul li {
+#section-2-1 ul {
     color: #C27512;
     font-family: Lato;
     font-size: 16px;
@@ -166,6 +178,28 @@ h1 {
     line-height: 24px; /* 150% */
 }
 
+
+#footer img {
+    width: 298.012px;
+    height: 396px;
+    background: url(../Image/image\ 9.png) lightgray 50% / cover no-repeat;
+}
+
+#footer a {
+    color: #00D4BC;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+
+}
 
 
 
